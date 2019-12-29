@@ -1,0 +1,210 @@
+.seccion-banner {
+    background: url(/img/newsletter.jpg);
+    height: 195px;
+    width: 100%;
+}
+
+.caja_texto{
+    text-align: left; 
+    width: 50% !important;
+    font-size:50px; 
+    background-color: rgba(39, 140, 204, 0.9); 
+    line-height: 100%; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 2%;
+    word-wrap: word-break;
+    padding:30px;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: none!important;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+.newsletter{
+    top: -10px;width: 271px;
+    height: 42px;
+    background-color: white;
+    border-bottom:none;
+    border-bottom: none;
+    margin-left: 0%;
+    border-radius: 3px;
+    border: 1px solid #B0B0B0;
+}
+
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #26a69a;
+    -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.tbanner{
+	font-size: 35px;
+	font-family: 'Source Sans Pro', sans-serif!important;
+	font-weight: bold;
+	color: #FD3F72;
+}
+
+.tbanner2 p{
+	color: #595959;
+	font-family: 'Source Sans Pro', sans-serif!important;
+	font-size: 18px;
+	position: relative;
+    bottom: 14px;
+}
+
+.tbanner p{
+	position: relative;
+    top: 26px;
+}
+
+.boton2{
+	height: 42px!important;
+    width: 133px;
+    top: 5px;
+    right: 221px;
+}
+
+
+@media only screen and (max-width: 1100px){
+.tbanner {
+    font-size: 27px;
+    }
+.tbanner2 p {
+    color: #595959;
+    font-size: 15px;
+}
+
+.boton2 {
+    top: -65px;
+        right: 68%;
+}
+
+.newsletter{
+    top: -10px;width: 100%;
+    height: 42px;
+    background-color: white;
+    border-bottom:none;
+    border-bottom: none;
+    margin-left: 0%;
+    border-radius: 3px;
+    border: 1px solid #B0B0B0;
+}
+}
+
+
+@media only screen and (max-width: 900px){
+.boton2 {
+    top: -65px;
+    right: 330px;
+}
+    
+.boton2 {
+    top: -65px;
+    right: 72%;
+}
+
+footer .linksb {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    padding-left: 0px;
+    text-align: center;
+}
+
+footer .titulo-footer {
+    font-family: 'Source Sans Pro', sans-serif!important;   
+    text-align: center;
+    padding-left: 0px;
+}
+
+footer .linksb {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    padding-left: 0px;
+    text-align: center;
+}
+
+footer .titulo-footer2 {
+    font-family: 'Source Sans Pro', sans-serif!important;  
+    text-align: center;
+    padding-left: 0px;
+}
+
+footer .titulo-footer3 {
+    font-family: 'Source Sans Pro', sans-serif!important;   
+    text-align: center;
+    padding-left: 0px;
+}
+
+footer .listlinks2 {
+    font-family: 'Source Sans Pro', sans-serif!important;
+    padding-left: 0px;
+    text-align: center;
+}
+
+
+
+}
+
+@media only screen and (max-width: 500px){
+
+.lineasdecontenido .contenido p {
+    /* position: relative; */
+    color: #595959;
+    bottom: 48px;
+
+}
+.lineasdecontenido .contenido{
+
+    width: 100%;
+    
+}
+.lineasdecontenido .titulo {
+    font-size: 27px!important;
+    color: #278CCC;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    word-wrap: break-word;
+}
+
+.lineasdecontenido .descripcion {
+    font-size: 27px!important;
+    line-height: 0px;
+    font-weight: bold;
+    color: #278CCC;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.caja_texto{
+    width: 80% !important;
+}
+}
+
+.lineasdecontenido .descripcion {
+    font-size: 47px;
+    line-height: 0px;
+    font-weight: bold;
+    color: #278CCC;
+    font-family: 'Source Sans Pro', sans-serif;
+}

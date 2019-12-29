@@ -1,0 +1,154 @@
+body {
+	font-style: 'Source Sans Pro';
+	font-size: 17px;
+}
+
+.nav-flex{
+	background-color: #E3E3E1;
+	border: 0px;
+	position: relative;
+	height: 65%;
+	padding-top: 0.2%;
+	color: #278CCC;
+	box-shadow: 0 0px 0px -0px rgba(0,0,0,.0);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header-nav{
+	margin-bottom: 0!important;
+	height: 149px;
+	background-color: #E3E3E1;
+	border: 0px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+
+@media only screen and (max-width: 993px){
+	.logo-header{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+.page-footer {
+    padding-top: 0!important;
+	background-color: #363636!important;
+}
+
+.banda{
+	position: relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+	word-spacing: 19px;
+}
+
+.linksheader a:hover{
+	color: #278CCC;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.ic{
+	position: relative;
+	bottom: 40px;
+	left: 30px;
+}
+.linksheader a{
+	position: relative;
+	color: black;
+}
+
+
+.iconos-redes{
+	padding-left: 0%;
+	padding-right: 0%;	
+}
+
+.links-header a{
+	position: relative;
+	top:42px;
+	left: 32%;
+	width: 400px;
+	font-size: 17px;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #fff;
+	padding: 0px 24px;
+}
+
+.links-header a:active{
+	color: #278CCC;
+}
+
+.links-header a:hover{
+	color: #278CCC;
+	font-weight: bold;
+	    text-decoration: none!important;
+}
+
+#page{
+	position: relative;
+	display: none;
+}
+
+@media only screen and (max-width: 1003px){
+#page{
+    position: relative;
+	display: flex;
+	background-color: #278CCC;
+  }
+  .page-footer {
+	height: 100%;
+	}
+}
+
+
+
+@media only screen and (min-width: 1004px){
+header{
+    position: relative;
+	display: none;
+  }
+
+  
+}
+
+
+
+/* lupita para buscador en movil*/
+
+#mobile_search {
+    /*display: none;*/
+    width: 450px;
+    /*ancho por defecto*/
+    background: #CCCCCC;
+    /*icono lupa*/
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+/* FIN lupita para buscador en movil*/
+
+.activo {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #278CCC!important;
+    font-weight: bold;
+}
+
+nav .sidenav-trigger i {
+    height: 56px;
+    line-height: 56px;
+    color: black!important;
+}
+
+@media only screen and (max-width: 600px){
+	.icon_menu{
+		margin:0 !important;
+		float:none !important; 
+	}
+}

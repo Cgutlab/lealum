@@ -1,0 +1,61 @@
+.empresa{ 
+	font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+.empresa hr{
+	border: solid 1px #278CCC;
+}
+
+
+.empresa p{
+	margin-top:12px; 
+	margin-bottom:12px;
+}
+
+.caja_texto{
+	text-align: left;
+	width: 40% !important;
+    font-size:50px; 
+    background-color: rgba(39, 140, 204, 0.9); 
+    line-height: 100%; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 2%;
+    word-wrap: word-break;
+}
+.empresa_slider_dif{
+	text-align: left; 
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	font-size:50px!important; 
+	background-color: rgba(23, 27, 66, 0.9); 
+	width: 467px!important; 
+	height: 200px; 
+	line-height: 100%; 
+	font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+.empresa_slider_dif span{
+	text-align: left; 
+	padding: 3%;
+	font-size: 50px; 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.descripcion_empresa p{
+	font-family: 'Source Sans Pro', sans-serif!important;
+	font-size: 32px;
+	color: #278CCC;
+	width: 90%;
+    margin-left: 5%;
+	line-height: 34px;
+}
+
+.contenido_empresa p{
+	font-family: 'Source Sans Pro', sans-serif!important;
+	font-size: 18px;
+	color: #595959;
+	margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.container{
+	width: 90%;
+	max-width: 500px;
+	padding: 20px 40px;
+	border-radius: 3px;
+	background: #ebebeb;
+	border: 1px solid #278CCC;
+}
+
+main{
+	padding-left: 0;
+}
+
+.input-field .prefix.active{
+	color: #278CCC;
+}
+
+.input-field .prefix.visited{
+	color: rgb(42, 128, 182);
+}
+
+.input-field .prefix{
+	color: #278CCC;
+}
+
+.logo-login{
+	width: 80%;
+	margin: auto;
+	padding: 30px;
+}
+
+.logo-login img{
+	display: block;
+	margin: auto;
+}
